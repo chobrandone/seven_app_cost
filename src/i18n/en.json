@@ -1,0 +1,22 @@
+{
+    "home": {
+        "appName": "Seven App Cost",
+        "homeBody": "Have a project, or just an idea? but you don't know how much it can cost you? don't hesitate any longer and evaluate the cost of your application for free with on Seven App Cost , Click on start button to begin.",
+        "homeButton": "start"
+    },
+    "sector": {
+
+        "homeButton": "Home",
+        "sectorQuestion": "What is your Sector ? ",
+        "sectorContact": "If You don't see your sector ? ",
+        "contactus": "Contact us"
+    },
+    "platform": {
+
+        "sectorButton": "Previous ",
+        "Question ": "What kind of app do you want ? ",
+        "platformContact": "If You don't see your Plateform ?  ",
+        "contactus": " contact us"
+
+    }
+}

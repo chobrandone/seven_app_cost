@@ -1,0 +1,24 @@
+{
+    "home": {
+        "appName": "Seven App Cost",
+        "homeBody": "Vous avez un projet ou juste une idée? mais vous ne savez pas combien cela peut vous coûter? n'hésitez plus et évaluez le coût de votre application gratuitement avec sur Seven App Cost, cliquez sur le bouton Démarrer pour commencer.",
+        "homeButton": "commence"
+    },
+    "sector": {
+
+        "homeButton": "Accuiel",
+        "sectorQuestion ": "Quel est votre secteur?",
+        "sectorContact": "Si Vous ne voyez pas votre secteur? ",
+        "contactus": " contacter Nous"
+
+    },
+    "platform": {
+
+        "sectorButton": "précédent ",
+        "platformQuestion ": "Quel type d'application souhaitez-vous ? ",
+        "platformContact": "Si Vous ne voyez pas votre  Plate - forme ?  ",
+        "contactus": " contacter Nous"
+
+    }
+
+}
