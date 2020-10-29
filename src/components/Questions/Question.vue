@@ -145,6 +145,8 @@ export default {
   },
   methods: {
     select: function(position) {
+      console.log("***********************",position);
+      console.log(this.activeQuestion.question,"************** active question")
       console.log(this.result);
       this.price += parseInt(this.activeQuestion.answer[position].price);
       this.priceArr.push(parseInt(this.activeQuestion.answer[position].price));
@@ -152,9 +154,9 @@ export default {
         answer: this.activeQuestion.answer[position],
         question: this.activeQuestion.question,
       };
-      if (this.index <= this.questionLength - 1 || this.index == 0) {
+      if (this.index <= this.questionLength-1 ) {
         this.index += 1;
-        this.activeQuestion = this.questions[this.index];
+       this.activeQuestion = this.questions[this.index];
       } else {
         this.$ls.set("totalPrice", this.price);
         this.$ls.set("response", JSON.stringify(this.result));
