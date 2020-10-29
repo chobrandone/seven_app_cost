@@ -61,9 +61,9 @@
                 id="exampleCheck1"
                 @change="checkit"
               />
-              <small class="form-check-label text-muted" for="exampleCheck1">{{
+              <span><small class="form-check-label text-muted" for="exampleCheck1">{{
                 $t("EvaluateModal.result")
-              }}</small>
+              }}</small></span>
             </div>
             <button
               class="button button-check  px-4 btn-block  animate__animated animate__pulse"
@@ -156,9 +156,9 @@
                 id="exampleCheck1"
                 @change="checkit"
               />
-              <small class="form-check-label text-muted" for="exampleCheck1">{{
+             <span> <small class="form-check-label text-muted" for="exampleCheck1">{{
                 $t("EvaluateModal.result")
-              }}</small>
+              }}</small></span>
             </div>
             <button
               class="button button-check  px-4 btn-block  animate__animated animate__pulse"
@@ -325,7 +325,7 @@ font-family: "Montserrat";
   font-size: 10px;
 }
 #content h3{
-  font-size: 19px;
+  font-size: 13px;
 }
 #content .first-col{
    padding: 32px;
@@ -376,7 +376,7 @@ font-family: "Montserrat";
 font-family: "Montserrat";
 }
 #content h3{
-  font-size: 19px;
+  font-size: 16px;
 }
 #content .first-col{
    padding: 32px;
@@ -430,7 +430,7 @@ font-family: "Montserrat";
   font-size: 10px;
 }
 #content h3{
-  font-size: 18px;
+  font-size: 15px;
 }
 #content .first-col{
    padding: 32px;
@@ -480,7 +480,7 @@ font-family: "Montserrat";
   font-size: 11px;
 }
 #content h3{
-  font-size: 29px;
+  font-size: 22px;
 }
 #content .first-col{
    padding: 32px;
@@ -524,7 +524,7 @@ font-family: "Montserrat";
 
 @media (min-width: 375px) {
   #content h3{
-  font-size: 29px;
+  font-size: 20px;
   
 }
 #content label{
@@ -551,17 +551,17 @@ font-family: "Montserrat";
 font-family: "Montserrat";
 }
 #content input{
-  font-size: 16px;
+  font-size: 12px;
 }
 #content h3{
-  font-size: 34px;
+  font-size: 20px;
 }
 #content .first-col{
    padding: 32px;
    display: none;
 }
 #content label{
-  font-size: 20px;
+  font-size: 15px;
 }
 #content small{
    font-size: 80%;
@@ -573,7 +573,7 @@ font-family: "Montserrat";
     align-items: center;
     padding: .375rem .75rem;
     margin-bottom: 0;
-    font-size: 17px;
+    font-size: 11px;
     font-weight: 400;
     line-height: 0.5;
     color: #495057;
@@ -621,7 +621,7 @@ font-family: "Montserrat";
   min-height: 529px;
 }
 #content h3{
-  font-size: 35px;
+  font-size: 29px;
 }
 #content.input-group-text {
     display: flex;
@@ -654,24 +654,21 @@ font-family: "Montserrat";
     display: none;
   }
   #content label{
-  font-size: 30px;
+  font-size: 18px;
 }
 #content h3{
-  font-size: 40px;
+  font-size: 20px;
 }
 #content input{
-  font-size: 23px;
-  height: 69px;
+  font-size: 12px;
+  height: 40px;
 }
 #content small{
-   font-size: 25px;
+   font-size: 16px;
     font-weight: 400;
-    padding: 30px;
+    padding-top:30px;
 }
-  #content .checks{
-    width: 50px;
-    height: 30px;
-  }
+
   
    #content {
      overflow-y:hidden;
@@ -696,7 +693,7 @@ font-family: "Montserrat";
     display: none;
   }
   #content h3{
-  font-size: 26px;
+  font-size: 20px;
 }
 #content input{
       font-size: 17px;
@@ -734,8 +731,7 @@ font-family: "Montserrat";
   border: 2px solid #f38016;
   background-color: #f38016;
   color: white;
-  padding: 10px 20px;
-  font-size: 16px;
+
   cursor: pointer;
   font-family: "Montserrat";
 }
