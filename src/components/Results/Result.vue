@@ -17,7 +17,7 @@
       <h5 class="text-dark font-weight-bold">
         {{ $t("Resultmessage.thanksComment") }}
       </h5>
-      <h5 class="text-dark font-weight-bold mt-3 link" > {{ $t("convertLink.curency") }} <span><a href="" @click.prevent="currencyConverter">{{ $t("convertLink.link") }}</a></span> </h5>
+      <!-- <h5 class="text-dark font-weight-bold mt-3 link" > {{ $t("convertLink.curency") }} <span><a href="" @click.prevent="currencyConverter">{{ $t("convertLink.link") }}</a></span> </h5> -->
       <div class="text-center text-center mid-button">
         <!-- Buttons-->
         <button class="button button-check success px-4 " @click="showPopup">
