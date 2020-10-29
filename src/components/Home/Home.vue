@@ -58,8 +58,60 @@
               ></span
             >
           </h5>
+
+           <!-- footer section-->
+
+      <!-- logo-->
+      <div class="foot row">
+        <div class="col-sm-4 col-md-4 ">
+          <!-- <img
+            src="../../assets/img/logo2.png"
+            alt="logo"
+            width="200px"
+            class="logo animate__animated animate__fadeIn"
+          /> -->
+        </div>
+        <!--social icon-->
+        <div class="col-sm-4 col-md-4  animate__animated animate__fadeIn home-icon">
+         
+        
+          <a 
+            href="https://www.facebook.com/sevenadvancedacademy"
+            target="_blank"
+          >
+            <font-awesome-icon
+              size="2x"
+              :icon="['fab', 'facebook']"
+              class="item"
+            />
+          </a>
+          <a
+            href="https://twitter.com/sevenacademy7?lang=en"
+            target="_blank"
+          >
+            <font-awesome-icon
+              size="2x"
+              :icon="['fab', 'twitter']"
+              class="mx-3 item"
+              href="https://twitter.com/sevenacademy7?lang=en"
+              target="_blank"
+            />
+          </a>
+          <a
+          href="https://www.linkedin.com/company/seven-advanced-academy"
+            target="_blank"
+          >
+            <font-awesome-icon
+              size="2x"
+              :icon="['fab', 'linkedin-in']"
+              class="item"
+              target="_blank"
+            />
+          </a>
+        </div>
+      </div>
           
-          <div class="icon">
+          <!-- <div class="icon">
           
             <ul
               class="list-unstyled text-center mb-0 list-icon d-flex justify-content-around animate__animated animate__fadeIn"
@@ -88,36 +140,12 @@
                 </a>
               </li>
             </ul>
-          </div>
+          </div>  -->
       
       </div>
+     
 
-      <div class="social-icons">
-        <ul class="list-unstyled text-center mb-0">
-          <li class="list-unstyled-item">
-            <a href="#">
-              <i>
-                <font-awesome-icon :icon="['fab', 'twitter']" />
-              </i>
-            </a>
-          </li>
-          <li class="list-unstyled-item ">
-            <a href="#">
-              <i>
-                <font-awesome-icon :icon="['fab', 'facebook-f']" />
-              </i>
-            </a>
-          </li>
-          <li class="list-unstyled-item instagram">
-            <a href="#">
-              <i>
-                <font-awesome-icon :icon="['fab', 'linkedin-in']" />
-              </i>
-            </a>
-          </li>
-        </ul>
-      
-      </div>
+    
     </div>
   </header>
 </template>
@@ -126,6 +154,7 @@
 import video from "../../assets/mp4/bg.mp4";
 import logo from "../../assets/img/logo.png";
 import Sector from "../Sectors/Sector";
+
 
 export default {
   data() {
@@ -350,6 +379,10 @@ video {
  
  
 }
+.foot {
+    text-align: center;
+    margin-top: 50px;
+  }
 
 
   .image_logo {
@@ -969,7 +1002,7 @@ video {
     margin-top: 58px;
     position: absolute;
     right: 0;
-    display: none;
+    
   }
 
   .icon {
@@ -998,6 +1031,7 @@ video {
   .content {
     text-align: center;
   }
+  
 }
 
 @media (min-width: 1280px) {
@@ -1152,13 +1186,14 @@ video {
   }
 
   .social-icons ul[data-v-15737ea2][data-v-15737ea2] {
-    margin-top: 2rem;
+        margin-top: 2rem;
     width: 100%;
     text-align: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-evenly;
-    margin-top: -14px;
+    margin-top: 126px;
+    margin-left: -650px;
   }
 
   .social-icons[data-v-15737ea2] {
@@ -1249,6 +1284,15 @@ video {
 }
 
 .language :hover {
+  color: #f79623;
+}
+.item{
+ border-radius: 100%;
+}
+.home-icon a{
+  color: white;
+}
+.home-icon a :hover{
   color: #f79623;
 }
 
