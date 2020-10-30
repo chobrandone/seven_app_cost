@@ -255,7 +255,7 @@ font-family: "Montserrat";
     align-items: center;
     padding: .375rem .75rem;
     margin-bottom: 0;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 400;
     line-height: 0.5;
     color: #495057;
@@ -274,6 +274,9 @@ font-family: "Montserrat";
   cursor: pointer;
   font-family: "Montserrat";
   margin-bottom: 73px;
+}
+#content textarea{
+  font-size: 10px;
 }
 
 }
@@ -333,6 +336,14 @@ font-family: "Montserrat";
    
   
 }
+@media (min-width: 320px) {
+     #content  {
+    overflow-y:unset;
+  max-height: 9px;
+font-family: "Montserrat";
+}
+}
+
 @media (min-width: 360px) {
    #content .second-col{
   padding: 50px;
@@ -393,7 +404,7 @@ font-family: "Montserrat";
   
 }
 #content label{
-  font-size: 16px;
+  font-size: 18px;
 }
 @media (min-width: 411px) {
   
@@ -414,10 +425,10 @@ font-family: "Montserrat";
 font-family: "Montserrat";
 }
 #content textarea{
-  font-size: 16px;
+  font-size: 12px;
 }
 #content input{
-  font-size: 16px;
+  font-size: 12px;
 }
 #content h3{
   font-size: 34px;
@@ -427,7 +438,7 @@ font-family: "Montserrat";
    display: none;
 }
 #content label{
-  font-size: 20px;
+  font-size: 14px;
 }
 #content small{
    font-size: 80%;
@@ -439,7 +450,7 @@ font-family: "Montserrat";
     align-items: center;
     padding: .375rem .75rem;
     margin-bottom: 0;
-    font-size: 17px;
+    font-size: 11px;
     font-weight: 400;
     line-height: 0.5;
     color: #495057;
@@ -475,7 +486,7 @@ font-family: "Montserrat";}
   padding: 30px;
 }
 #content h3{
-  font-size: 30px;
+  font-size: 18px;
 }
   
 }
@@ -552,17 +563,17 @@ font-family: "Montserrat";
     padding: 50px;
   }
   #content label{
-  font-size: 30px;
+  font-size: 16px;
 }
 #content textarea{
-  font-size: 24px;
+  font-size: 14px;
 }
 #content h3{
-  font-size: 40px;
+  font-size: 25px;
 }
 #content input{
-  font-size: 23px;
-  height: 69px;
+  font-size: 12px;
+  height: 40px;
 }
 #content small{
    font-size: 25px;
@@ -576,7 +587,7 @@ font-family: "Montserrat";
   
    #content {
      overflow-y:hidden;
-  min-height: 886px;
+  min-height: 600px;
 }
 #content .button {
   border: 2px solid #1a9e8e;
@@ -618,7 +629,7 @@ font-family: "Montserrat";
   
    #content {
      overflow-y:hidden;
-  min-height: 696px;
+  min-height: 651px;
 }
 #content .button {
   border: 2px solid #1a9e8e;

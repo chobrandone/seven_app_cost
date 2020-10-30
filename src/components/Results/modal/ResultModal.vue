@@ -310,7 +310,7 @@ export default {
 
 
 #content .image {
-  height: 100%;
+  height: 105%;
   background-image: url("../../../assets/img/bgresult.jpg");
   background-size: cover;
 }
@@ -318,7 +318,7 @@ export default {
   #content  {
     overflow-y: auto;
     overflow-x: hidden;
-  max-height: 9px;
+  max-height: 250px;
 font-family: "Montserrat";
 }
 #content input{
@@ -372,7 +372,7 @@ font-family: "Montserrat";
 @media (min-width: 280px) {
    #content  {
     overflow-y:unset;
-  max-height: 9px;
+  max-height: unset;
 font-family: "Montserrat";
 }
 #content h3{
@@ -419,11 +419,11 @@ font-family: "Montserrat";
 
 @media (min-width: 320px) {
   #content .second-col{
-  padding: 50px;
+  padding: 33px;
 }
   #content  {
     overflow-y:hidden;
-  min-height: 465px;
+  min-height: 440px;
 font-family: "Montserrat";
 }
 #content input{
@@ -431,6 +431,9 @@ font-family: "Montserrat";
 }
 #content h3{
   font-size: 15px;
+}
+#content .checks{
+margin-top: 7px !important;
 }
 #content .first-col{
    padding: 32px;
@@ -473,14 +476,14 @@ font-family: "Montserrat";
 @media (min-width: 360px) {
   #content  {
     overflow-y:hidden;
-  min-height: 528px;
+  min-height: 492px;
 font-family: "Montserrat";
 }
 #content input{
   font-size: 11px;
 }
 #content h3{
-  font-size: 22px;
+  font-size: 19px;
 }
 #content .first-col{
    padding: 32px;
@@ -524,16 +527,28 @@ font-family: "Montserrat";
 
 @media (min-width: 375px) {
   #content h3{
-  font-size: 20px;
+  font-size: 19px;
   
+}
+ #content  {
+    overflow-y:hidden;
+  min-height: 433px;
+font-family: "Montserrat";
 }
 #content label{
   font-size: 16px;
 }
 }
 
-@media (min-width: 411px) {
-  
+@media (min-width: 425px) {
+  .checks{
+    margin-top: 7px;
+  }
+  #content  {
+    overflow-y:hidden;
+  min-height: 412px;
+font-family: "Montserrat";
+}
 }
 
 @media (min-width: 450px) {
@@ -547,7 +562,7 @@ font-family: "Montserrat";
 @media (min-width: 600px) {
   #content  {
     overflow-y:hidden;
-  min-height: 528px;
+  min-height: 52px;
 font-family: "Montserrat";
 }
 #content input{
@@ -607,9 +622,9 @@ font-family: "Montserrat";
 
 @media (min-width: 768px) {
   #content  {
-    overflow-y:hidden;
-  min-height: 536px;
-font-family: "Montserrat";
+      overflow-y: hidden;
+    min-height: 457px;
+    font-family: "Montserrat"
 }
  
   
@@ -656,6 +671,9 @@ font-family: "Montserrat";
   #content label{
   font-size: 18px;
 }
+#content .checks {
+    margin-top: -8px !important;
+}
 #content h3{
   font-size: 20px;
 }
@@ -672,7 +690,7 @@ font-family: "Montserrat";
   
    #content {
      overflow-y:hidden;
-  min-height: 688px;
+  min-height: 500px;
 }
 #content .button {
   border: 2px solid #1a9e8e;
@@ -700,7 +718,7 @@ font-family: "Montserrat";
     height: 47px;
 }
   #content label{
-  font-size: 21px;
+  font-size: 17px;
 }
 #content small{
           font-size: 19px;
@@ -722,7 +740,13 @@ font-family: "Montserrat";
 }
 
 @media (min-width: 1440px) {
- 
+ #content .checks{
+    margin-top: -10px !important;
+}
+   #content {
+     overflow-y:hidden;
+  min-height: 500px;
+}
 }
 
 

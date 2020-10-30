@@ -381,7 +381,7 @@ video {
 }
 .foot {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 38px;
   }
 
 
@@ -437,12 +437,12 @@ video {
   }
 
   .masthead .masthead-content h1 {
-    font-size: 0.5rem;
+    font-size: 18px !important;
     text-align: center;
   }
 
   .masthead .masthead-content p {
-    font-size: 1.2rem;
+    font-size: 15px;
     text-align: center;
   }
 }
@@ -527,6 +527,15 @@ video {
   }
 
   .content {
+    text-align: center;
+  }
+    .masthead .masthead-content h1 {
+    font-size: 21px !important;
+    text-align: center;
+  }
+
+  .masthead .masthead-content p {
+    font-size: 16px;
     text-align: center;
   }
 }
@@ -679,7 +688,7 @@ video {
   }
 .link[data-v-15737ea2] {
     position: relative;
-    font-size: 17px;
+    font-size: 18px;
     color: white!important;
 }
 
@@ -811,6 +820,15 @@ video {
   .content {
     text-align: center;
   }
+    .masthead .masthead-content h1 {
+    font-size: 26px !important;
+    text-align: center;
+  }
+
+  .masthead .masthead-content p {
+    font-size: 22px;
+    text-align: center;
+  }
 }
 
 @media (min-width: 640px) {
@@ -863,6 +881,15 @@ video {
     border-radius: 4px;
     transition: 0.6s;
     overflow: hidden;
+  }
+    .masthead .masthead-content h1 {
+    font-size: 30px !important;
+    text-align: center;
+  }
+
+  .masthead .masthead-content p {
+    font-size: 22px !important;
+    text-align: center;
   }
 
   .masthead {
@@ -1031,7 +1058,15 @@ video {
   .content {
     text-align: center;
   }
-  
+    .masthead .masthead-content h1 {
+    font-size: 35px !important;
+    text-align: center;
+  }
+
+  .masthead .masthead-content p {
+    font-size: 22px !important;
+    text-align: center;
+  }
 }
 
 @media (min-width: 1280px) {

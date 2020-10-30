@@ -583,6 +583,7 @@ export default {
   .link{
   font-size: 12px;
 }
+
 }
 
 /*end of my media */
