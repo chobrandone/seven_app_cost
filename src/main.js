@@ -94,7 +94,7 @@ const messages = {
             result: "Send me my result",
             placeHolderEmail: "Enter your Email",
             placeHolderName: "Enter your Name",
-            placeHolderPhone: "Enter your Phone number",
+            placeHolderPhone: "Enter your phone number",
         },
         contactModal: {
             subject: "Subject",
@@ -105,7 +105,7 @@ const messages = {
             message: " Message",
             placeHolderEmail: "Enter your Email",
             placeHolderMessage: "Description of what you want",
-            placeHolderPhone: "Enter your Phone number",
+            placeHolderPhone: "Enter your phone number",
         },
         footer: {
             copywrite: " Calculate Your App Cost",
@@ -127,7 +127,7 @@ const messages = {
         homemessage: {
             appName: "Quel est le coût de mon application? ",
             homeBody: "Vous êtes-vous déjà demandé combien il vous en coûterait pour créer une application personnalisée pour votre entreprise? Ce calculateur de coût d'application GRATUIT et pratique vous aidera: En moins de trois minutes, estimez le coût de votre application spécifique.",
-            homeButton: "commencez"
+            homeButton: "Commencez"
         },
         sectormessage: {
 
@@ -162,9 +162,9 @@ const messages = {
             name: " Nom",
             phone: " TelePhone ",
             result: "Envoyez mes resultats",
-            placeHolderEmail: " Entrez Votre Email",
-            placeHolderName: "Entrez Votre Nom",
-            placeHolderPhone: "Entrez Votre Numero du TelePhone",
+            placeHolderEmail: " Entrez votre email",
+            placeHolderName: "Entrez votre nom",
+            placeHolderPhone: "Entrez votre numero du TelePhone",
 
         },
         contactModal: {
@@ -176,7 +176,7 @@ const messages = {
             message: "Message",
             placeHolderEmail: " Entrez Votre Email",
             placeHolderMessage: "Description ce que vous voulez ",
-            placeHolderPhone: "Entrez Votre Numero du TelePhone",
+            placeHolderPhone: "Entrez votre numero du telePhone",
 
         },
         footer: {

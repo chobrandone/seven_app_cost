@@ -493,7 +493,7 @@ font-family: "Montserrat";
   font-size: 16px;
 }
 #content small{
-   font-size: 80%;
+   font-size: 73%;
     font-weight: 400;
 }
  
@@ -527,7 +527,7 @@ font-family: "Montserrat";
 
 @media (min-width: 375px) {
   #content h3{
-  font-size: 19px;
+  font-size: 17px;
   
 }
  #content  {
@@ -536,7 +536,7 @@ font-family: "Montserrat";
 font-family: "Montserrat";
 }
 #content label{
-  font-size: 16px;
+  font-size: 13px;
 }
 }
 
@@ -669,7 +669,7 @@ font-family: "Montserrat";
     display: none;
   }
   #content label{
-  font-size: 18px;
+  font-size: 15px;
 }
 #content .checks {
     margin-top: -8px !important;
@@ -697,7 +697,7 @@ font-family: "Montserrat";
   background-color: #1a9e8e;
   color: white;
   padding: 10px 20px;
-  font-size: 25px;
+  font-size: 17px;
   cursor: pointer;
   font-family: "Montserrat";
 }
@@ -714,14 +714,14 @@ font-family: "Montserrat";
   font-size: 20px;
 }
 #content input{
-      font-size: 17px;
-    height: 47px;
+      font-size: 12px;
+    height: 43px;
 }
   #content label{
   font-size: 17px;
 }
 #content small{
-          font-size: 19px;
+          font-size: 12px;
   }
   
    #content {
@@ -733,7 +733,7 @@ font-family: "Montserrat";
   background-color: #1a9e8e;
   color: white;
   padding: 10px 20px;
-  font-size: 21px;
+  font-size: 17px;
   cursor: pointer;
   font-family: "Montserrat";
 }
@@ -741,11 +741,11 @@ font-family: "Montserrat";
 
 @media (min-width: 1440px) {
  #content .checks{
-    margin-top: -10px !important;
+    margin-top: -9px !important;
 }
    #content {
      overflow-y:hidden;
-  min-height: 500px;
+  min-height: 493px;
 }
 }
 

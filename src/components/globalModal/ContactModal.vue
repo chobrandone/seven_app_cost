@@ -288,23 +288,23 @@ font-family: "Montserrat";
 font-family: "Montserrat";
 }
 #content input{
-  font-size: 11px;
+  font-size: 10px;
 }
 #content h3{
-  font-size: 19px;
+  font-size: 16px;
 }
 #content .first-col{
    padding: 32px;
 }
 #content label{
-  font-size: 12px;
+  font-size: 11px;
 }
 #content small{
    font-size: 60%;
     font-weight: 400;
 }
 #content textarea{
-  font-size: 12px;
+  font-size: 10px;
 }
  
  #content .input-group-text {
@@ -327,7 +327,7 @@ font-family: "Montserrat";
   background-color: #1a9e8e;
   color: white;
   padding: 10px 20px;
-  font-size: 15px;
+  font-size: 13px;
   cursor: pointer;
   font-family: "Montserrat";
   margin-bottom: -20px;
@@ -350,20 +350,20 @@ font-family: "Montserrat";
 }
   #content  {
     overflow-y:hidden;
-  min-height: 559px;
+  min-height: 488px;
 font-family: "Montserrat";
 }
 #content input{
-  font-size: 12px;
+  font-size: 11px;
 }
 #content h3{
-  font-size: 19px;
+  font-size: 15px;
 }
 #content .first-col{
    padding: 32px;
 }
 #content label{
-  font-size: 16px;
+  font-size: 12px;
 }
 #content small{
    font-size: 11px;
@@ -400,11 +400,11 @@ font-family: "Montserrat";
 }
 @media (min-width: 375px) {
   #content h3{
-  font-size: 24px;
+  font-size: 16px;
   
 }
 #content label{
-  font-size: 18px;
+  font-size: 12px;
 }
 @media (min-width: 411px) {
   
@@ -425,10 +425,10 @@ font-family: "Montserrat";
 font-family: "Montserrat";
 }
 #content textarea{
-  font-size: 12px;
+  font-size: 11px;
 }
 #content input{
-  font-size: 12px;
+  font-size: 11px;
 }
 #content h3{
   font-size: 34px;
@@ -438,7 +438,7 @@ font-family: "Montserrat";
    display: none;
 }
 #content label{
-  font-size: 14px;
+  font-size: 13px;
 }
 #content small{
    font-size: 80%;
@@ -486,7 +486,7 @@ font-family: "Montserrat";}
   padding: 30px;
 }
 #content h3{
-  font-size: 18px;
+  font-size: 16px;
 }
   
 }
@@ -563,13 +563,13 @@ font-family: "Montserrat";
     padding: 50px;
   }
   #content label{
-  font-size: 16px;
+  font-size: 13px;
 }
 #content textarea{
-  font-size: 14px;
+  font-size: 11px;
 }
 #content h3{
-  font-size: 25px;
+  font-size: 17px;
 }
 #content input{
   font-size: 12px;
@@ -594,7 +594,7 @@ font-family: "Montserrat";
   background-color: #1a9e8e;
   color: white;
   padding: 10px 20px;
-  font-size: 25px;
+  font-size: 16px;
   cursor: pointer;
   font-family: "Montserrat";
 }
@@ -608,17 +608,17 @@ font-family: "Montserrat";
     display: none;
   }
   #content h3{
-  font-size: 26px;
+  font-size: 20px;
 }
 #content input{
-      font-size: 17px;
-    height: 47px;
+      font-size: 12px;
+    height: 42px;
 }
   #content label{
-  font-size: 21px;
+  font-size: 14px;
 }
 #content small{
-          font-size: 19px;
+          font-size: 12px;
     font-weight: 400;
     padding: 20px;
 }
@@ -629,14 +629,14 @@ font-family: "Montserrat";
   
    #content {
      overflow-y:hidden;
-  min-height: 651px;
+  min-height: 569px;
 }
 #content .button {
   border: 2px solid #1a9e8e;
   background-color: #1a9e8e;
   color: white;
   padding: 10px 20px;
-  font-size: 21px;
+  font-size: 17px;
   cursor: pointer;
   font-family: "Montserrat";
 }
@@ -645,7 +645,9 @@ font-family: "Montserrat";
 }
 
 @media (min-width: 1440px) {
- 
+   #content h3{
+  font-size: 14px;
+}
 }
 
 
