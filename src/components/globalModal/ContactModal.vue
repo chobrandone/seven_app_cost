@@ -666,7 +666,6 @@ font-family: "Montserrat";
   background-color: #f38016;
   color: white;
   padding: 10px 20px;
-  font-size: 16px;
   cursor: pointer;
   font-family: "Montserrat";
 }
