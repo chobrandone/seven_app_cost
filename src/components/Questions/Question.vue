@@ -428,6 +428,8 @@ export default {
 @media (min-width: 1440px) {
   #content .button {
     width: 10%;
+      font-family: "Montserrat";
+
   }
 
   .loader {
@@ -501,6 +503,8 @@ export default {
   font-size: 16px;
   cursor: pointer;
   transition: transform 0.2s;
+    font-family: "Montserrat" !important;
+
 }
 
 #content .button:hover {

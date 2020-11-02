@@ -76,7 +76,7 @@
          
         
           <a 
-            href="https://www.facebook.com/sevenadvancedacademy"
+            href="https://www.facebook.com/sevengps7/"
             target="_blank"
           >
             <font-awesome-icon
@@ -86,19 +86,19 @@
             />
           </a>
           <a
-            href="https://twitter.com/sevenacademy7?lang=en"
+            href="https://twitter.com/sevengps1?lang=en"
             target="_blank"
           >
             <font-awesome-icon
               size="2x"
               :icon="['fab', 'twitter']"
               class="mx-3 item"
-              href="https://twitter.com/sevenacademy7?lang=en"
+              href="https://twitter.com/sevengps1?lang=en"
               target="_blank"
             />
           </a>
           <a
-          href="https://www.linkedin.com/company/seven-advanced-academy"
+          href="https://www.linkedin.com/company/seven-gps/?originalSubdomain=cm"
             target="_blank"
           >
             <font-awesome-icon
@@ -1174,6 +1174,8 @@ video {
     border-radius: 4px;
     transition: 0.6s;
     overflow: hidden;
+      font-family: "Montserrat";
+
   }
 
   .masthead {
